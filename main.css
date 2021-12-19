@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #457b9d;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    height: 460px;
+    width: 290px;
+    background-color: #1d3557;
+    border-radius: 10px 10px 80px 10px;
+    position: absolute;
+    box-shadow: 5px 5px 12px; /*Contribuição do Lucas*/
+}
+
+.screen {
+    height: 190px;
+    width: 250px;
+    background-color: #e63946;
+    border-radius: 10px 10px 50px 10px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+.viewfinder-border {
+    height: 160px;
+    width: 170px;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+    top: 15px;
+    left: 40px;
+}
+
+.viewfinder {
+    height: 154px;
+    width: 160px;
+    background: #000;
+    border-radius: 5px;
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+.pointer {
+    height: 10px;
+    width: 10px;
+    background-color: #000;
+    border-radius: 100%;
+    position: relative;
+    top: -90px;
+    left: 15px;
+}
+
+.brand {
+    color: #fff;
+    position: relative;
+    top: 40px;
+    left: 80px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster';
+}
+
+p > span {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.joystick {
+    height: 90px;
+    width: 90px;
+    background-color: #e63946;
+    border-radius: 100%;
+    position: relative;
+    top: 55px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-joy {
+    height: 70px;
+    width: 30px;
+    background-color: #1d3557;
+    border-radius: 5px;
+}
+
+.up-down {
+    position: relative;
+    transform: rotate(90deg);
+    left: 15px;
+}
+
+.left-right {
+    position: relative;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-right::after {
+    content: '';
+    height: 30px;
+    width: 30px;
+    background-color: #e63946;
+    position: absolute;
+    border-radius: 100%;
+}
+
+.act-btn-area {
+    height: 50px;
+    width: 100px;
+    background-color: #e63946;
+    color: white;
+    font-size: 12px; /*implementado por Lucas*/
+    font-weight: 700;
+    position: relative;
+    top: -25px;
+    left: 170px;
+    transform: rotate(-30deg);
+    border-radius: 25px;
+}
+
+.act-btn {
+    height: 40px;
+    width: 40px;
+    background-color: #1d3557;
+    border-radius: 100%;
+    position: relative;
+}
+
+.btn-a {
+    top: 5px;
+    left: 55px;
+}
+
+.btn-b {
+    top: -35px;
+    left: 5px;
+}
+
+.act-btn > span { /*implementado por Lucas*/
+    position: relative;
+    top: 45px;
+    left: 15px;
+}
+
+.btn-a:hover, .btn-b:hover {
+    background-color: #040030;
+    transition: .4s ease;
+}
+
+.btn-controller {
+    height: 40px;
+    width: 70px;
+    background-color: transparent;
+    position: relative;
+    top: 15px;
+    left: 100px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.controller > span {
+    position: relative;
+    top: 12px;
+}
+
+.controller {
+    height: 12px;
+    width: 40px;
+    background-color: #e63946;
+    position: relative;
+    transform: rotate(-30deg);
+    border-radius: 5px;
+}
+
+.controller:hover {
+    background-color: #ff0f23;
+    transition: .4s ease;
+}
+
+.start {
+    left: -8px;
+}
+
+.start > span {
+    left: 3px;
+}
+
+.select {
+    top: -12px;
+    left: 40px;
+}
+
+.sound {
+    height: 50px;
+    width: 80px;
+    background-color: transparent;
+    position: relative;
+    transform: rotate(-30deg);
+    top: -10px;
+    left: 190px;
+}
+
+.sound-item {
+    height: 40px;
+    width: 5px;
+    background-color: #fff;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
