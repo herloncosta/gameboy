@@ -1,10 +1,9 @@
 # Gameboy Design Project
+Este projeto tem como objetivo desenhar um Gameboy utilizando apenas HTML e CSS.
 
 <div style="width=100%; display: flex; justify-items: center;">
   <img style="max-width: 80%;" src="./assets/images/preview.png" alt="project preview"/>
 </div>
-
-Este projeto tem como objetivo desenhar um Gameboy utilizando apenas HTML e CSS.
 
 ## Índice
 
