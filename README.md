@@ -1,6 +1,6 @@
 # Gameboy Design Project
 
-<img src="./assets/preview.png" alt="project preview"/>
+<img src="./assets/images/preview.png" alt="project preview"/>
 
 Este projeto tem como objetivo desenhar um Gameboy utilizando apenas HTML e CSS.
 
