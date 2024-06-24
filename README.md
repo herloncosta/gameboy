@@ -42,7 +42,7 @@ Simplesmente abra o arquivo `index.html` em qualquer navegador da web. Você ver
 gameboy-design/
 ├── assets/
 │   └── images
-│            └── preview.png
+│       └── preview.png
 │   └── main.css
 │   └── app.js
 ├── index.html
